@@ -95,6 +95,10 @@ USE_CAMERA_STUB := true
 TARGET_USES_AOSP := true
 TARGET_USES_MEDIA_EXTENSIONS := false
 
+# Bluetooth
+BOARD_HAVE_BLUETOOTH_QCOM := true
+TARGET_USE_QTI_BT_STACK := true
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
