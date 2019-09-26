@@ -172,10 +172,6 @@ PRODUCT_PACKAGES += \
     fsck.f2fs \
 		mkfs.f2fs
 
-# tri-state-key
-PRODUCT_PACKAGES += \
-    tri-state-key_daemon
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
