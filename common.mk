@@ -406,6 +406,10 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.0-service \
     power.sdm845
 
+# Touch
+PRODUCT_PACKAGES += \
+		vendor.lineage.touch@1.0-service.judy
+
 # QTI
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)etc/sysconfig/qti_whitelist.xml \
