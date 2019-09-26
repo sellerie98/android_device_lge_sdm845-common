@@ -82,7 +82,7 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     AntHalService
 
-#LGDoze & GestureHandler
+#LG Doze & Gesture Handler
 PRODUCT_PACKAGES += \
     LGDoze \
 		GestureHandler
@@ -286,6 +286,7 @@ PRODUCT_PACKAGES += \
 #ipacm configuration files
 PRODUCT_COPY_FILES += \
     hardware/qcom/data/ipacfg-mgr/msm8998/ipacm/src/IPACM_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/IPACM_cfg.xml
+
 PRODUCT_PACKAGES += \
     hwcomposer.sdm845 \
     android.hardware.graphics.composer@2.2-service \
