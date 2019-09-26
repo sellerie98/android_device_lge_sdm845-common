@@ -115,11 +115,9 @@ PRODUCT_COPY_FILES += \
 #PRODUCT_PACKAGES += \
 #    Snap
 
-
 # Display
 PRODUCT_PACKAGES += \
     libvulkan
-#    DisplayMode
 
 # HIDL
 PRODUCT_PACKAGES += \
